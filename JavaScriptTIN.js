@@ -1,3 +1,4 @@
+//                                             -4a.1-
 function RecFact(num)
 {
     if (num> 0 && num<=1)
@@ -10,7 +11,7 @@ console.log(RecFact(5));
 
 
 
-
+//                                              -4a.2-
 function IterFact(value)
 {
   var result = 1;
@@ -25,7 +26,7 @@ console.log(IterFact(7));
 
 
 
-
+//                                                -4b-
 var fibonacciSeq = function (n) 
 {
   if (n===1) 
@@ -43,7 +44,7 @@ console.log(fibonacciSeq(8));
 
 
 
-
+//                                                 -4c-
 isPalindrom = (str = "") => {
   if (str[0] === str[str.length - 1]) {
     return str.length <= 1 ? true : isPalindrom(str.slice(1, -1))
@@ -55,7 +56,7 @@ isPalindrom = (str = "") => {
 console.log(["exe", "vdacb", "aa", "abba", "s","AED"].map((e, i) => isPalindrom(e)).join())
 
 
-
+//                                                 -4d-
 
 function AlphabetOrder(str) {
   var arr = str.split('');
@@ -67,7 +68,7 @@ console.log(AlphabetOrder("world of warcraft"));
 
 
 
-
+//                                                 -4e-
 function longestWord(string) {
   let words = string.split(" ");
   return words.reduce((prev, next) => prev.length > next.length ? prev : next);
@@ -76,7 +77,7 @@ function longestWord(string) {
 console.log(longestWord("smile google fun"));
 
 
-
+//                                                  -4f-
 
 function isAPrimeNumber(num){
      var counter = 0;
@@ -96,7 +97,7 @@ var resp = isAPrimeNumber(1);
 console.log(resp);
 
 
-
+//                                                   -4g-
 
 function DataType(value)
 {
@@ -119,7 +120,7 @@ console.log(DataType(4));
 console.log(DataType('Warcraft'));
 console.log(DataType(true));
 
-
+//                                                    -4h-
 
 
 function SecondGreatestLowest(arrNum)
@@ -146,7 +147,7 @@ console.log(SecondGreatestLowest([1,2,3,4,5]));
 
 
 
-
+//                                               -4i-
 
 function amountTocoins(amount, coins) 
 {
@@ -171,7 +172,7 @@ function amountTocoins(amount, coins)
 console.log(amountTocoins(46, [25, 10, 5, 2,1]));
 
 
-
+//                                                -4j-
 
 function binary_Search(items, value){
     var firstIndex  = 0,
